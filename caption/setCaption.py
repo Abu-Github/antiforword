@@ -17,10 +17,10 @@
 
 #Function for adding caption
 #to media such as audio,image,gifs and files
-##def setCaption(update,context):
-  if update.message.reply_to_message is not None:
-   fileCaption= update.message.text
-   fileType=update.message.reply_to_message
+def setCaption(update,context):
+  #if update.message.reply_to_message is not None:
+   #fileCaption= update.message.text
+   #fileType=update.message.reply_to_message
    if fileType.document!=None:
      update.message.reply_document(
        update.message.reply_to_message.document.file_id,caption=fileCaption)
