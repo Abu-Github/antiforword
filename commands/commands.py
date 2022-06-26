@@ -19,14 +19,14 @@ from config import Config
 #Inline Keyboard Button
 keyboard = [
 [
- InlineKeyboardButton("Source Code", url=Config.SOURCE)
+ InlineKeyboardButton("Developer", url=Config.SOURCE)
 ],
 [
- InlineKeyboardButton("How To Create A Bot Like Me",url="https://youtu.be/swg6un2N4Fk")
+ InlineKeyboardButton("Co Developer",url="https://t.me/KodalineMusic")
 ]
 ]
 
-#The Keyboard On Up👆
+#The Keyboard On Up
 reply_markup = InlineKeyboardMarkup(keyboard)
 
 #Send Start Message
