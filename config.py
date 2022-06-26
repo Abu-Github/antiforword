@@ -19,7 +19,7 @@ import os
 class Config:
 	
  TOKEN=os.environ.get("BOT_TOKEN",None)
- SOURCE="https://github.com/Artis7eeR/ForwardTagRemoverBot"
- START_TEXT="Hi [{}](tg://user?id={})\nI am A Forward Tag remover Bot.Send /help To Know What I Can Do \n ©Artis7eeR"
- HELP_TEXT="Forward Me A File,Video,Audio,Photo or Anything And \nI will Send You the File Back\n\n`How to Set Caption?`\nReply Caption to a File,Photo,Audio,Media"
+ SOURCE="https://t.me/jackssmit"
+ START_TEXT="Whats up Dude [{}](tg://user?id={})\nIts me antiforword Bot.Need Any → /help To Know What I Can Do \n"
+ HELP_TEXT="I Just Remove Tags And Send U Back Any File - Video - Audio - Photo \nAre You Sending Now\n\n`?`\n "
 	
